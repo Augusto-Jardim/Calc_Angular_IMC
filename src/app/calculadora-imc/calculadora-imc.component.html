@@ -1,0 +1,14 @@
+<h1>Claculadora em IMC</h1>
+
+<div>
+  <form>
+    Digite o seu peso EX: XX.X <br>
+    <input type="number" name="num1" [(ngModel)]="num1" ><br><br>
+    Digite sua altura EX: X.XX<br>
+    <input type="number" name="num2" [(ngModel)]="num2" ><br><br>
+    seu IMC é:<br>
+    <input [value]="res"><br>
+    <button (click)="calc()">calcular</button>
+
+  </form>
+</div>
